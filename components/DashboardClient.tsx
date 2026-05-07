@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { Coin } from "@/types/crypto";
-import CryptoCard from "./CryptoCard";
 import CryptoTable from "./CryptoTable";
-import PriceChart from "./PriceChart";
+
+const CryptoCard = dynamic(() => import("./CryptoCard"), { ssr: false });
+const PriceChart = dynamic(() => import("./PriceChart"), { ssr: false });
 
 interface Props {
   coins: Coin[];
