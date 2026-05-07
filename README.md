@@ -9,7 +9,7 @@
 
 Real-time cryptocurrency dashboard built with Next.js 15 and the CoinGecko public API. Displays live prices, interactive charts, and market statistics for the top cryptocurrencies.
 
-🔗 **[Live demo](#)** ← *(update with Vercel link)*
+🔗 **[Live demo](https://crypto-dashboard-6xcepssl9-estefaniamarlozs-projects.vercel.app)**
 
 ### Visual overview
 
@@ -126,7 +126,7 @@ The easiest deployment is with [Vercel](https://vercel.com/):
 
 Dashboard de criptomonedas en tiempo real construido con Next.js 15 y la API pública de CoinGecko. Muestra precios, gráficas interactivas y estadísticas de mercado de las principales criptomonedas.
 
-🔗 **[Ver demo en vivo](#)** ← *(actualizar con link de Vercel)*
+🔗 **[Ver demo en vivo](https://crypto-dashboard-6xcepssl9-estefaniamarlozs-projects.vercel.app)**
 
 ### Vista general
 
