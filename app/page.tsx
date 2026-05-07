@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getTopCoins, getGlobalData } from "@/lib/api";
 import MarketStats from "@/components/MarketStats";
 import DashboardClient from "@/components/DashboardClient";
@@ -22,12 +23,12 @@ export default async function Page() {
           <p className="text-slate-400 max-w-md">
             No se pudieron obtener los datos de CoinGecko. La API pública tiene límites de uso. Intenta recargar la página en unos momentos.
           </p>
-          <a
+          <Link
             href="/"
             className="mt-2 px-5 py-2.5 bg-violet-600 hover:bg-violet-500 text-white rounded-xl font-medium transition-colors text-sm"
           >
             Reintentar
-          </a>
+          </Link>
         </div>
       </main>
     );

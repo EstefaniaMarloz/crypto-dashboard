@@ -50,7 +50,6 @@ export default function PriceChart({ coin }: Props) {
   const isPositive = coin.price_change_percentage_24h >= 0;
   const gradientId = `gradient-${coin.id}`;
   const strokeColor = isPositive ? "#10b981" : "#f43f5e";
-  const fillStart = isPositive ? "#10b98133" : "#f43f5e33";
 
   const loadChart = useCallback(async () => {
     setLoading(true);
